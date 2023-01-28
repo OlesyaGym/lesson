@@ -17,6 +17,25 @@ div.text{
 .text1 ul{
 	color: blueviolet;
 }
-.text2 ol{
-	color: darkgoldenrod;
+#p-1{
+	color: brown;
+}
+.text2,
+.text3{
+	color: crimson;
+}
+.text2 .list{
+	color: chartreuse;
+}
+.green *{
+	color: darkgreen;
+}
+.text-p > p{
+	color: orangered;
+}
+.text-p1 ~ p{
+	color: red;
+}
+.text.list{
+	color: chocolate;
 }
