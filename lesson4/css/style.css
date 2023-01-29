@@ -1,0 +1,63 @@
+@import url("reset.css");
+
+@import url(https://fonts.googleapis.com/css?family=Pacifico:regular&display=swap);
+
+@font-face {
+  font-family: "FoglihtenNo06";
+  src: url("../fonts/FoglihtenNo06.woff2") format("woff2"),
+    url("../fonts/FoglihtenNo06.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TeX Gyre Cursor";
+  src: url("../fonts/TeXGyreCursor-Regular.woff2") format("woff2"),
+    url("../fonts/TeXGyreCursor-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: "Pacifico", fantasy;
+  font-size: 16px;
+  font-weight: 300;
+  color: hwb(180 18% 69% / 0.897);
+}
+
+h1 {
+  font-family: "FoglihtenNo06", serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: rgba(180, 15, 103, 0.788);
+  text-align: center;
+  text-shadow: 2px 2px 5px #000;
+  text-transform: uppercase;
+}
+h3 {
+  font-family: "TeX Gyre Cursor", monospace;
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(16, 13, 209);
+  text-align: center;
+}
+.footer {
+  font-family: "FoglihtenNo06";
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(94, 8, 175);
+  text-align: left;
+  text-decoration: underline;
+}
+p {
+  text-align: justify;
+  line-height: 1.5;
+  text-indent: 20px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+li {
+  font-family: "TeX Gyre Cursor", monospace;
+  word-spacing: 10px;
+  letter-spacing: 10px;
+  color: rgb(214, 7, 7);
+}
